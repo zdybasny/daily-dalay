@@ -23,6 +23,6 @@ jobs:
             zip -r getDelay.zip lambdas/checkDelay
 
       - run: |
-            aws lambda update-function-code /
-              --function-name checkDelay
+            aws lambda update-function-code \
+              --function-name checkDelay \
               --zip-file checkDelay.zip
