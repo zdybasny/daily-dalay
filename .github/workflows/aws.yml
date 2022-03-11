@@ -20,7 +20,7 @@ jobs:
           aws-region: us-east-1
       
       - run: |
-            zip -r getDelay.zip lambdas/checkDelay
+            zip -r checkDelay.zip lambdas/checkDelay
 
       - run: |
             aws lambda update-function-code \
