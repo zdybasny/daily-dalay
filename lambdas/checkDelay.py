@@ -1,4 +1,3 @@
-[11:50] Czerwinski, Mateusz
 import aiohttp
 import boto3
 import asyncio
