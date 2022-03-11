@@ -22,5 +22,5 @@ jobs:
 
       - run: |
             aws lambda update-function-code /
-              --function-name getDelays
-              --zip-file getDElays.zip
+              --function-name checkDelay
+              --zip-file checkDelay.zip
