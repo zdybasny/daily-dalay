@@ -25,4 +25,4 @@ jobs:
       - run: |
             aws lambda update-function-code \
               --function-name checkDelay \
-              --zip-file checkDelay.zip
+              --zip-file fileb://checkDelay.zip
