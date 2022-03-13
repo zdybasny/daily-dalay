@@ -56,7 +56,7 @@ export class PociagServerlessStack extends Stack {
     const checkIfTrainIsDelayedLambdaRole  = new iam.Role(this, 'roleForCheckIfTrainsIsDelayedLambda', {
       assumedBy: new iam.ServicePrincipal('lambda.amazonaws.com'),
       inlinePolicies: {
-        policyWithAccessToSQS, policyWithAccessToSNS
+        policyWithAccessToSQS
       },
     });
 
